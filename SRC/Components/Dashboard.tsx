@@ -1,12 +1,12 @@
 import { useEffect, useState } from 'react';
 import { useAuth } from '@/lib/AuthContext';
 import { supabase, type Notification } from '@/lib/supabase';
-import OverviewPage from '@/components/OverviewPage';
-import BookingPage from '@/components/BookingPage';
-import ProcurementsPage from '@/components/ProcurementsPage';
-import PaymentsPage from '@/components/PaymentsPage';
-import AccountPage from '@/components/AccountPage';
-import NotificationsPanel from '@/components/NotificationsPanel';
+import OverviewPage from '@/Components/OverviewPage';
+import BookingPage from '@/Components/BookingPage';
+import ProcurementsPage from '@/Components/ProcurementsPage';
+import PaymentsPage from '@/Components/PaymentsPage';
+import AccountPage from '@/Components/AccountPage';
+import NotificationsPanel from '@/Components/NotificationsPanel';
 import {
   Bell, CalendarDays, ChevronDown, CreditCard, LogOut, Menu, PackageCheck,
   Sprout, User, X, Check, CircleHelp,

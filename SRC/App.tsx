@@ -1,6 +1,6 @@
 import { useAuth } from '@/lib/AuthContext';
-import AuthPage from '@/components/AuthPage';
-import Dashboard from '@/components/Dashboard';
+import AuthPage from '@/Components/AuthPage';
+import Dashboard from '@/Components/Dashboard';
 import { Loader2, Sprout } from 'lucide-react';
 
 function App() {
